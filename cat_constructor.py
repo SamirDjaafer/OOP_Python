@@ -1,11 +1,11 @@
 class Cat:
 
-    def __init__(self, breed="", colour="", hunger_bar="full", tiredness="awake", age=int("")):
+    def __init__(self, breed="", colour="", hunger_bar="full", tiredness="awake", age=""):
         self.breed = breed
         self.colour = colour
         self.hunger_bar = hunger_bar
         self.tiredness = tiredness
-        self.age = age
+        self.age = int(age)
 
     def meow(self):
         self.tiredness = "tired"
