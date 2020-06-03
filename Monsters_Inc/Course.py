@@ -1,5 +1,6 @@
 from Student_Monster import Student
 
+
 class Course:
     def __init__(self, module_name, start_date, list_of_students = [], skill_list = []):
         self.module_name = module_name
