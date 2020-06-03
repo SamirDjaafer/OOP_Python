@@ -1,4 +1,4 @@
-fibonacci = [0, 1, 1]
+fibonacci = [0, 1]
 stop_value = int(input("Where should we stop the sequence? "))
 #1 create while loop = while true
 while True:
